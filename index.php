@@ -1,12 +1,10 @@
 <?php
- $item = " Bangla Book";
- $price = 400;
- $quantity =10;
- $totalPeice = $price * $quantity;
- echo " $item price $price";
- echo "<br>";
- echo "This Total Price of $quantity {$item}s is $totalPeice";
- 
-?>
+$item ="NoteBook";
+$price = 500;
+$quantity = 50;
+$totalPrice = $price * $quantity;
 
- 
+
+
+
+printf("This number is %s is %.2f ", $item , $price);
