@@ -8,5 +8,3 @@
  echo "This Total Price of $quantity {$item}s is $totalPeice";
  
 ?>
-
- 
