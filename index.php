@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>Hello Bangladesh Testing In PHP </h2>
-    <?php echo "Another Bangladesh"?>
-    <ul>
-        <?php 
-        for( $i = 0; $i < 10; $i++ ){
-            echo "<li> Bangladesh $i</li>";
-        }
-        ?>
-    </ul>
-    
-</body>
-</html>
+<?php
+ $item = " Bangla Book";
+ $price = 400;
+ $quantity =10;
+ $totalPeice = $price * $quantity;
+ echo " $item price $price";
+ echo "<br>";
+ echo "This Total Price of $quantity {$item}s is $totalPeice";
