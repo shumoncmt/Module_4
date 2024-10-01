@@ -64,3 +64,9 @@ function static_var()
     echo "static:" .$num5. "<br>";
     echo "Non-static:" . $num6. "<br>";
 }
+
+$as = "abc";
+$$as = 200;
+echo "$as \n";
+echo $$as."\n";
+echo $abc;
