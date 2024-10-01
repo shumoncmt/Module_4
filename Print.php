@@ -1,5 +1,6 @@
 <?php 
 //Printf Show and Sprintf not show
+//Printf use string Formationg 
 $name = "Md . Shumon Mia";
 $age = 27;
 $Male ="True";
