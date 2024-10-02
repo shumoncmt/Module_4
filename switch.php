@@ -26,36 +26,30 @@ switch (true) {
     
 }
 
-//$marks = 77;
 
-// switch(true){
+?>
 
-//     case ($marks <= 100 && $marks >= 80):
-//         echo "A+";
-//     break;    
+<h3>Switch Case Color</h3>
+<?php
 
-//     case ($marks < 80 && $marks >= 70):
-//         echo "A";
-//     break;    
+$myColor = "red";
+switch($myColor){
+    case "Green":
+        echo " My favorite Color is Green";
+        break;
+    case "Yellow":
+        echo "My favorite Color is  Yellow";
+        break;
+    case "red":
+        echo "My favorite Color is Red";
+        break;
+    case "Blue":
+        echo "My Favorite color is Blue";
+        break;
+    default:
+    echo "MY Color is Not Match";
 
-//     case ($marks < 70 && $marks >= 60):
-//         echo "A-";
-//     break;  
-
-//     case ($marks < 60 && $marks >= 50):
-//         echo "B";
-//     break;
-
-//     case ($marks < 50 && $marks >= 40):
-//         echo "C";
-//     break; 
-
-//     case ($marks < 50 && $marks >= 33):
-//         echo "D";
-//     break;   
-
-//     default:
-//         echo "F";
-//     break;    
         
-// }
+}
+
+?>
