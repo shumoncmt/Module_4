@@ -23,3 +23,4 @@ switch ($grade) {
     echo "We are Full";
 
 }
+// Switch Case Function 
