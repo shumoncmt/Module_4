@@ -23,4 +23,3 @@ switch ($grade) {
     echo "We are Full";
 
 }
-// Grade System In Switch case function 
